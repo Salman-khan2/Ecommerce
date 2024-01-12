@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-body{
+  background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(25deg, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(25deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+h1 {
+  background: #c31432; /* Fallback for old browsers */
+  background: -webkit-linear-gradient(25deg, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(25deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text; /* For older versions of WebKit browsers */
+  background-clip: text;
+  color: transparent; /* Make the original text color transparent */
+}
+
+.Navbar-ul li{
+  display: inline-block;
+  padding: 2rem;
+}
+.Navbar-ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  background-color: skyblue;
+  width: 100%;
+  
+}
+
+.Signup-box{
+  margin-left: 30rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.input-field{
+  height: 2rem;
+  margin: 1rem;
+  border: 2px solid skyblue;
+  
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 2px solid transparent; /* Set a transparent border */
+  border-image: linear-gradient(25deg, #240b36, #c31432); /* Use the gradient as a border image */
+  border-image-slice: 1; /* Slice the border image to fill the entire border */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners to the input box */
+}
+.Signup-button{
+  height: 2rem;
+  width: 30%;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  background: #c31432; /* Fallback for old browsers */
+  background: -webkit-linear-gradient(25deg, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(25deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  
+ 
+}
+.login-box{
+  margin-top: 5rem;
+  margin-left: 30rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.login{
+  text-align: right;
+}
+.logo{
+  width: 4.2rem;
+  float: left;
+  margin-top: .7rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+.addproduct-box{
+  margin-top: 5rem;
+  margin-left: 30rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+}
+.add-button{
+  height: 2rem;
+  width: 30%;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  background: #c31432; /* Fallback for old browsers */
+  background: -webkit-linear-gradient(25deg, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(25deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  
+ 
+}
+.update-button{
+  height: 2rem;
+  width: 40%;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+  background: #c31432; /* Fallback for old browsers */
+  background: -webkit-linear-gradient(25deg, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(25deg, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+.error-box{
+  margin-left: 1rem;
+  margin-top: -1rem;
+  color: red;
+}
+.product-list{
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.product-list ul li{
+  display: inline-block;
+  padding: .5rem;
+  border: 1.3px solid #c31432;
+  width: 12rem;
+  margin: 0;
+}
+.delete-btn{
+  height: 1rem;
+  
+}
+.search-item{
+  height: 2rem;
+  margin: 1rem;
+  width: 30%;
+  padding: .7rem;
+  border: 2px solid transparent; /* Set a transparent border */
+  border-image: linear-gradient(25deg, #240b36, #c31432); /* Use the gradient as a border image */
+  border-image-slice: 1; /* Slice the border image to fill the entire border */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners to the input box */
+}
+
+.profile-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.profile-section h1{
+  margin: .7rem;
+}
